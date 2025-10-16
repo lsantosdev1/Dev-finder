@@ -1,73 +1,80 @@
-# React + TypeScript + Vite
+# Dev-Finder 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</div>
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo ao Vivo
 
-## React Compiler
+**[Clique aqui para ver o projeto no ar!](https://dev-finder-rosy.vercel.app/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<br>
 
-## Expanding the ESLint configuration
+## 📸 Screenshot
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![Screenshot do Dev-Finder](./caminho/para/seu/screenshot.png)
+_**Observação:** Tire um print da sua aplicação e adicione-o à pasta do projeto. Depois, substitua o caminho acima pelo caminho correto da sua imagem._
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+<br>
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📄 Sobre o Projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+O **Dev-Finder** é uma aplicação web interativa que permite aos usuários buscar perfis de desenvolvedores no GitHub e visualizar suas informações de forma rápida e organizada. O projeto foi construído para demonstrar o consumo de uma API REST externa, o gerenciamento de estado em React e a criação de uma interface de usuário moderna e responsiva com Tailwind CSS.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+<br>
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ Funcionalidades
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+-   **Busca de Perfis:** Campo de busca para encontrar qualquer usuário existente no GitHub.
+-   **Exibição Dinâmica de Dados:** Apresentação clara das informações do usuário, incluindo avatar, nome, bio, número de repositórios, seguidores e pessoas que segue.
+-   **Link Direto:** Acesso rápido ao perfil completo do usuário no site do GitHub.
+-   **Tratamento de Estado:** Feedback visual para estados de carregamento (loading) e erro (usuário não encontrado).
+-   **Design Responsivo:** A interface se adapta perfeitamente a dispositivos móveis, tablets e desktops.
+
+<br>
+
+## 🛠️ Tecnologias Utilizadas
+
+-   **React:** Biblioteca para a construção da interface de usuário.
+-   **TypeScript:** Para adicionar tipagem estática ao JavaScript, garantindo um código mais robusto.
+-   **Vite:** Ferramenta de build moderna e ultrarrápida para o frontend.
+-   **Tailwind CSS:** Framework CSS utility-first para estilização rápida e customizável.
+-   **GitHub API:** API REST pública utilizada para buscar os dados dos perfis.
+
+<br>
+
+## ⚙️ Como Rodar o Projeto Localmente
+
+Para rodar este projeto em sua máquina, siga os passos abaixo:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/luanjob/dev-finder.git](https://github.com/luanjob/dev-finder.git)
+    ```
+2.  **Navegue para a pasta do projeto:**
+    ```bash
+    cd dev-finder
+    ```
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+5.  Abra `http://localhost:5173` (ou a porta que aparecer no terminal) no seu navegador.
+
+<br>
+
+## 👨‍💻 Autor
+
+Feito com ❤️ por **Luan Santos**.
+
+-   GitHub: [@luanjob](https://github.com/luanjob)
+-   LinkedIn: [Seu Perfil no LinkedIn](https://www.linkedin.com/in/SEU_PERFIL_AQUI)
