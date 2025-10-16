@@ -17,8 +17,8 @@
 
 ## 📸 Screenshot
 
-![Screenshot do Dev-Finder](./caminho/para/seu/screenshot.png)
-_**Observação:** Tire um print da sua aplicação e adicione-o à pasta do projeto. Depois, substitua o caminho acima pelo caminho correto da sua imagem._
+![Screenshot do Dev-Finder](./src/assets/img/devfinder.png)
+_**Observação:** 
 
 <br>
 
@@ -74,7 +74,7 @@ Para rodar este projeto em sua máquina, siga os passos abaixo:
 
 ## 👨‍💻 Autor
 
-Feito com ❤️ por **Luan Santos**.
+Feito  por **Luan Santos**.
 
 -   GitHub: [@luanjob](https://github.com/luanjob)
--   LinkedIn: [Seu Perfil no LinkedIn](https://www.linkedin.com/in/SEU_PERFIL_AQUI)
+-   LinkedIn: [Seu Perfil no LinkedIn](https://www.linkedin.com/in/luan-santos-8092b721a/)
