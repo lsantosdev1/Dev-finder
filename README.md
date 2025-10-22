@@ -76,5 +76,5 @@ Para rodar este projeto em sua máquina, siga os passos abaixo:
 
 Feito  por **Luan Santos**.
 
--   GitHub: [@luanjob](https://github.com/luanjob)
--   LinkedIn: [Seu Perfil no LinkedIn](https://www.linkedin.com/in/luan-santos-8092b721a/)
+-   GitHub: [@lsantosdev1](https://www.linkedin.com/in/1luansantosdev/)
+-   LinkedIn: [luansantosdev](https://www.linkedin.com/in/1luansantosdev/)
