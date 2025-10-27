@@ -46,7 +46,7 @@ function App() {
 
   return (
     
-    <div className="bg-black min-h-screen flex flex-col items-center text-white p-4 font-sans">
+    <div className="min-h-screen flex flex-col items-center text-white p-4 font-sans bg-gradient-to-b from-black via-gray-900 to-red-900">
       <main className="w-full max-w-md flex flex-col items-center pt-16 sm:pt-20 flex-grow">
         {/* 👇 Título em vermelho */}
         <h1 className="text-4xl sm:text-5xl font-bold text-red-600 text-center">Dev-Finder</h1>
