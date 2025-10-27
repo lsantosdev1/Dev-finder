@@ -1,4 +1,4 @@
-// src/components/Footer.tsx
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,10 +8,10 @@ const Footer = () => {
       <p>
         © {currentYear} | Desenvolvido por{' '}
         <a 
-          href="https://github.com/luanjob" 
+          href="https://www.linkedin.com/in/1luansantosdev/" 
           target="_blank" 
           rel="noopener noreferrer"
-          // 👇 Efeito hover agora em vermelho
+          
           className="font-bold text-gray-400 hover:text-red-500 transition-colors"
         >
           Luan Santos
